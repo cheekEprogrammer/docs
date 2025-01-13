@@ -23,18 +23,29 @@
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://menuvoice.vercel.app/dashboard"
+    "url": "https://dashboard.mintlify.com"
   },
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
   "anchors": [
+    {
+      "name": "Documentation",
+      "icon": "book-open-cover",
+      "url": "https://mintlify.com/docs"
+    },
     {
       "name": "Community",
       "icon": "slack",
-      "url": "https://menuvoice.vercel.app/community"
+      "url": "https://mintlify.com/community"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://menuvoice.vercel.app/blog"
+      "url": "https://mintlify.com/blog"
     }
   ],
   "navigation": [
@@ -55,6 +66,20 @@
         "essentials/navigation",
         "essentials/reusable-snippets"
       ]
+    },
+    {
+      "group": "API Documentation",
+      "pages": [
+        "api-reference/introduction"
+      ]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/delete"
+      ]
     }
   ],
   "footerSocials": {
@@ -62,4 +87,3 @@
     "github": "https://github.com/mintlify",
     "linkedin": "https://linkedin.com/company/mintlify"
   }
-}
