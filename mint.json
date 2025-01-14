@@ -1,18 +1,18 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Menu Voice Docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#4A00FF",
+    "light": "#01E7FD",
+    "dark": "#4A00FF",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#4A00FF",
+      "to": "#4A01AB"
     }
   },
   "topbarLinks": [
@@ -35,10 +35,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart"
-      ]
+      "pages": ["introduction", "quickstart"]
     },
     {
       "group": "Essentials",
